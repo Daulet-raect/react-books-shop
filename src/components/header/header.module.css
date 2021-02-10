@@ -1,0 +1,40 @@
+.header {
+    width: 100%;
+    height: 40px;
+
+    background: #2C2C2C;
+    display: flex;
+    justify-content: space-between;
+}
+
+.title {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: #D5D5D5;
+    padding-left: 20px;
+
+}
+
+.buttons {
+    background-color:#2C2C2C;
+    border: none;
+    display:inline-block;
+    cursor:pointer;
+    color:#ffffff;
+    font-family:Arial;
+    font-size:16px;
+    padding:10px 30px;
+    text-decoration:none;
+    height: 100%;
+
+}
+
+.buttons:hover {
+    background-color:#000000;
+}
+
+.buttons:active {
+    position:relative;
+    top:1px;
+}

@@ -1,0 +1,15 @@
+.cart {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row-gap: 20px;
+}
+
+.line {
+    border-top: 2px solid #797D80;
+    margin: 20px 10% 0 10%;
+}
+
+.totalPrice {
+    padding: 0 10%;
+}
+
